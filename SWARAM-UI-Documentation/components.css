@@ -257,7 +257,7 @@ body{
     margin-bottom:0.3rem;
 }
 
-.card-dismiss{
+.card-icon-topRight{
     position: absolute;
     top:0;
     right:0;
