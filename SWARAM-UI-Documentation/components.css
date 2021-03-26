@@ -154,13 +154,11 @@ body{
     border:1px solid var(--primary);
 }
 
-.btn-primary-text{
-    color:var(--primary);
+.btn-text{
     border:0;
     background-color: white;
-    padding:0;
+    padding:0; 
 }
-
 /** Icon Buttons **/
 
 .icon-btn{
