@@ -272,6 +272,17 @@ body{
     justify-content: space-between;
 }
 
+.text-overlay{
+    position: "absolute";
+    bottom: "0";
+    background-color: "white";
+    opacity: "0.7";
+    padding: "1rem";
+    width: "90%";
+    height: "1rem";
+    text-align: "center";
+}
+
 .qty-div{
     display: inline-block;
     border:1px solid gray;
