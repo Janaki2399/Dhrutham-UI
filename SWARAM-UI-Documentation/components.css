@@ -32,6 +32,10 @@ body{
     display: flex;
 }
 
+.center-align{
+    align-items:center;
+}
+
 /** Avatar **/
 
 .avatar-container{
@@ -189,6 +193,7 @@ body{
 .icon-size-18{
     font-size: 18px; 
 }
+
 
 .icon-color-red{
     color:red;
