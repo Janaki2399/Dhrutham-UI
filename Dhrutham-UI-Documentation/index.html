@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="components.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="CSS/dhrutham.css">
+    <link rel="stylesheet" href="CSS/index.css">
 
-    <title>Swaram UI</title>
+    <title>Dhrutham UI</title>
 </head>
 <body>
- 
+    <header>
+        <div class=" flex-horizontal center-align" style="align-items: center;justify-content: space-between;padding-left:1rem;padding-right:1rem">
+            <div>Dhrutham UI</div>
+            <div class="flex-horizontal" style="align-items:center; justify-content: flex-end;">
+                <a href="/" class="flex-horizontal nav-link" style="align-items: center;margin-right: 0.6rem;">
+                   <span class="material-icons-outlined icon-color-gray icon-btn-with-padding">account_circle</span>
+                    <span class="font-bold-2">Profile</span> 
+                </a>
+            </div>
+        </div>
+        
+    </header>
     <div id="nav">
-        <h2 class="text-color-primary" style="text-align: center;">Swaram UI</h1>
         <ul class="spaced-list-item-group list-group-margin">
+            <a class="nav-link" href="#avatar"><li class="spaced-list-item">Getting started</li></a>
             <a class="nav-link" href="#avatar"><li class="spaced-list-item">Avatar</li></a>
             <a class="nav-link" href="#alert"><li class="spaced-list-item">Alerts</li></a>
             <a class="nav-link" href="#button"><li class="spaced-list-item">Buttons</li></a>
@@ -30,8 +41,19 @@
 
     <main>
     
+    <!--GETTING STARTED-->
+    <section id="avatar" class="scroll-margin-top">
+
+        <h1 class="heading-large heading">Getting started</h1>
+        To get started copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all other stylesheets to load our CSS.
+
+        <div class="code-div">
+            <embed src="https://carbon.now.sh/embed/TRbD07KXIrJJBKB3Pk6j" width="100%"></embed>
+        </div>
+    </section>
+    
     <!--AVATAR-->
-    <section id="avatar">
+    <section id="avatar" class="scroll-margin-top">
 
         <h1 class="heading-large heading">Avatar</h1>
         <div class="center-div">
@@ -47,7 +69,7 @@
     </section>
     
     <!--ALERTS-->
-    <section id="alert">
+    <section id="alert" class="scroll-margin-top">
         <h1 class="heading-large heading">Alerts</h1>
         
         <div class="center-div">
@@ -63,13 +85,13 @@
 
 
     <!--BUTTONS-->
-     <section id="button">
+     <section id="button" class="scroll-margin-top">
         <h1 class="heading-large heading">Buttons</h1>
 
         <div class="center-div">
             <button class="btn btn-primary-contained">PRIMARY</button>
             <button class="btn btn-primary-outline">PRIMARY</button>
-            <button class="btn btn-primary-text">PRIMARY</button>
+            <button class="btn btn-text text-color-primary">PRIMARY</button>
         </div>
         <div class="code-div">
             <embed src="https://carbon.now.sh/embed/Knaae0wZSrVgYcsiYsGA" width="100%"></embed>
@@ -108,7 +130,7 @@
     </section>
 
     <!--BADGES-->
-    <section id="badge">
+    <section id="badge" class="scroll-margin-top">
         <h1 class="heading-large heading">Badges</h1>
         <h3 class="heading">Badge on Icons</h3>
             <div class="center-div badge-container">
@@ -151,7 +173,7 @@
         </section>
     
      <!--CARDS-->
-    <section id="cards">
+    <section id="cards" class="scroll-margin-top">
         <h1 class="heading-large heading">Cards</h1>
         <h3 class="heading">Text only card</h3>
 
@@ -159,7 +181,7 @@
             <div class="card card-shadow " style="max-width:25rem;">
                 <div class="card-padding">
                     <div class="card-title">Card Title</div>
-                    <div class="card-text">
+                    <div class="card-text font-size-medium">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Sunt officia eos quidem, quaerat doloremque veritatis
                         minus nihil alias eum? Assumenda eum, esse facilis
@@ -169,7 +191,7 @@
             </div>
         </div>
 
-        <div class="code-div">
+        <div class="code-div" >
             <embed src="https://carbon.now.sh/embed/FrzZAD3f4QXx7jUSgPn3" width="100%"></embed>
         </div>
        
@@ -189,7 +211,7 @@
                         Rs 598
                     </div>
                  </div>
-                 <button class="icon-btn card-dismiss"><span class="material-icons-outlined icon-color-gray">close</span></button>
+                 <button class="icon-btn card-icon-topRight"><span class="material-icons-outlined icon-color-gray">close</span></button>
             </div>
         </div>
        
@@ -204,12 +226,12 @@
                         <img class="round-img img-size-small" src="https://tinyurl.com/2fzxkc44">
                     </div>
                     <div class="card-text">    
-                        <div><span class="font-bold-1">Janaki S</span> </div> 
+                        <div><span class="font-bold-1 font-size-5">Janaki S</span> </div> 
                         <div class="font-size-6 text-gray">Lorem ipsum dol ad omnis</div>
                         <div class="font-size-6 text-gray"> Mar 14</div>
                     </div>      
                 </div>
-                <div class="card-text">
+                <div class="card-text font-size-5">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aliquid nam necessitatibus quae exercitationem quidem aperiam deserunt suscipit.
                     Nobis in tempora aperiam reprehenderit, perferendis doloribus voluptate aut, 
@@ -230,8 +252,8 @@
                 </div>
                 <div class="card-content-padding text-start card-vertical" style="width:60%;">
                         <div>
-                            <div class="card-title">KALINI</div>
-                            <div class="card-text">
+                            <div class="card-title font-size-4">KALINI</div>
+                            <div class="card-text font-size-5">
                                 Art Silk checked Tussar Silk 
                             </div>
                             <div class="flex-horizontal margin-top" >
@@ -241,8 +263,8 @@
                             </div>
                         </div>
                         <div>
-                            <button class="btn btn-primary-text font-size-6 text-gray margin-right" >REMOVE</button>
-                            <button class="btn btn-primary-text font-size-6 text-gray" >ADD TO WISHLIST</button>
+                            <button class="btn btn-text font-size-6 text-gray margin-right" >REMOVE</button>
+                            <button class="btn btn-text font-size-6 text-gray" >ADD TO WISHLIST</button>
                         </div>
                  </div>
                  <div class="card-content-padding font-size-4 ">
@@ -256,7 +278,7 @@
     </section>
 
     
-    <section id="list">
+    <section id="list" class="scroll-margin-top">
         <h1 class="heading-large heading">List</h1>
 
         <h3 class="heading">Spaced List Items</h3>
@@ -281,8 +303,8 @@
                 <div class="img-margin">
                     <img class="round-img img-size-small" src="https://tinyurl.com/2fzxkc44">
                 </div>
-                <div>
-                   <span class="font-bold-1 font-size-5">Janaki</span> started following you
+                <div class="font-size-5">
+                   <span class="font-bold-1">Janaki</span> started following you
                     <span class="text-gray">1d</span>
                 </div>
             </div>
@@ -290,8 +312,8 @@
                 <div class="img-margin">
                     <img class="round-img img-size-small" src="https://tinyurl.com/2fzxkc44">
                 </div>
-                <div>
-                   <span class="font-bold-1 font-size-5">Janaki</span> liked your message
+                <div class="font-size-5">
+                   <span class="font-bold-1 ">Janaki</span> liked your message
                     <span class="text-gray">1d</span>
                 </div>
             </div>            
@@ -304,7 +326,7 @@
     </section>
    
   
-    <section id="input">
+    <section id="input" class="scroll-margin-top">
     <h1 class="heading-large heading">Input</h1>
     <div class="center-div">
         <div style="width:20rem">
@@ -328,7 +350,7 @@
     </section>
 
 
-    <section id="snackbar">
+    <section id="snackbar" class="scroll-margin-top">
         <h1 class="heading-large heading">Snackbar</h1>
 
         <div class="snackbar-onView" style="width:17rem" >Saved to wishlist</div>
@@ -338,7 +360,7 @@
         </div> 
     </section>
 
-    <section id="text-utilities">
+    <section id="text-utilities" class="scroll-margin-top">
         <h1 class="heading-large heading">Text Utilities </h1>
         <h3 class="heading">Alignment</h3>
         <div class="center-div">
@@ -374,7 +396,7 @@
         </div>
         
     </section>
-    <section id="navbar">
+    <section id="navbar" class="scroll-margin-top">
         <h1 class="heading heading-large">Navbar</h1>
         <div class="center-div">
             <div class="nav">
@@ -401,7 +423,7 @@
     </section>
 
 
-     <section id="grid">
+     <section id="grid" class="scroll-margin-top">
         <h1 class="heading-large heading">Grid layout</h1>
         <div class="center-div">  
          <div class="grid-col-3">
@@ -412,7 +434,7 @@
                 <div class="card-content-padding">
                     <div class="card-title font-size-5">KALINI</div>
                     <div class="card-text text-gray font-size-5">
-                        Silk checked Tussar Silk
+                        Silk checked Tussar
                     </div>
                     <div class="card-text font-size-5 font-bold-1">
                         Rs 598

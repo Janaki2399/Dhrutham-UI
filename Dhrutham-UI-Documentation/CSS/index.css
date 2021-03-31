@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&family=Work+Sans:wght@100;500&display=swap');
 
+body{
+    font-family: Roboto;
+}
+header{
+    grid-area: header;
+    border-bottom:3px solid #E5E7EB;
+    position: fixed;
+    width:100%;
+    top:0;
+    background-color:white;
+    z-index: 1;
+}
+
 #nav{
     grid-area: nav;
     position: fixed; 
@@ -7,19 +20,22 @@
     width:300px;
     align-content: center;
     border-right:3px solid #E5E7EB;
+    margin-top:2rem;
+  
 }
 
 main{
     grid-area: main;
     opacity: 1;
    overflow:auto;
-
+   /* scroll-margin-top:12vh; */
 }
 
 body{
     display: grid;
     grid-template-columns: 300px 1fr  ;
-    grid-template-areas: "nav main ";
+    grid-template-areas:"header header" 
+    "nav main ";
     grid-column-gap:6rem;
     overflow-x: hidden;
 }
@@ -87,4 +103,12 @@ body{
     color:white;
     padding:0.8rem;
     border-radius:2px;
+}
+
+.scroll-margin-top{
+    scroll-margin-top: 12vh;
+}
+
+.font-size-medium{
+    font-size:0.95rem;
 }
