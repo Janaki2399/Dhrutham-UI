@@ -28,17 +28,6 @@ body{
     color:var(--primary)
 }
 
-.flex-horizontal{
-    display: flex;
-}
-
-.center-align{
-    align-items:center;
-}
-
-.curson-pointer{
-    cursor: pointer;
-}
 /** Avatar **/
 
 .avatar-container{
@@ -523,9 +512,23 @@ body{
     margin-top:1rem;
 }
 
+.margin-auto{
+    margin:auto;
+}
 
 /*utility classes*/
 
+.flex-horizontal{
+    display: flex;
+}
+
+.center-align{
+    align-items:center;
+}
+
+.curson-pointer{
+    cursor: pointer;
+}
 .flex-end{
     justify-content: flex-end;
 }
