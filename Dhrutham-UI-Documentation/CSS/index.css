@@ -3,6 +3,7 @@
 body{
     font-family: Roboto;
 }
+
 header{
     grid-area: header;
     border-bottom:3px solid #E5E7EB;
@@ -56,6 +57,7 @@ body{
     width:82%;
     border-radius:0.7rem;
 }
+
 .heading{
     font-family: "Roboto";
     line-height: 1.2;
@@ -111,4 +113,8 @@ body{
 
 .font-size-medium{
     font-size:0.95rem;
+}
+
+.logo-padding{
+    padding-left:5rem;
 }

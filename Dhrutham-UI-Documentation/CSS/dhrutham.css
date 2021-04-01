@@ -36,6 +36,9 @@ body{
     align-items:center;
 }
 
+.curson-pointer{
+    cursor: pointer;
+}
 /** Avatar **/
 
 .avatar-container{
@@ -520,3 +523,12 @@ body{
 }
 
 
+/*utility classes*/
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.space-between{
+    justify-content: space-between;
+}
