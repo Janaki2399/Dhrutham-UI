@@ -13,6 +13,7 @@
     --font-size-title:01.4rem;
     --font-family:Roboto;
     --margin-right:0.6rem;
+    --white-color:#FFFFFF;
 }
 
 body{
@@ -21,7 +22,7 @@ body{
 
 .bg-primary{
     background-color: var(--primary);
-    color:white;
+    color:var(--white-color);
 }
 
 .text-color-primary{
@@ -115,7 +116,7 @@ body{
 .badge-dot{
     position:absolute;
     background-color: #059669;
-    border:2px solid white;
+    border:2px solid var(--white-color);
     border-radius:50%;
     min-width:0.7rem;
     min-height:0.7rem;   
@@ -137,7 +138,7 @@ body{
 .btn-primary-contained{
     background-color:var(--primary);
     border:1px solid var(--primary);
-    color:white;
+    color:var(--white-color);
 }
 
 .btn-primary-contained:hover{
@@ -146,14 +147,14 @@ body{
 
 .btn-primary-outline{
     color:var(--primary);
-    background-color: white;
+    background-color:var(--white-color);
     border:1px solid var(--primary);
 }
 
 .btn-text{
     border:0;
     outline:0;
-    background-color: white;
+    background-color: var(--white-color);
     padding:0; 
 }
 
@@ -195,8 +196,9 @@ body{
 .icon-color-primary{
     color:var(--primary)
 }
+
 .icon-color-white{
-    color:white;
+    color:var(--white-color);
 }
 
 .icon-color-gray{
@@ -238,7 +240,7 @@ body{
 }
 
 .card-shadow{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .card-content-padding{
@@ -278,7 +280,7 @@ body{
 .text-overlay{
     position: absolute;
     bottom: 0;
-    background-color: white;
+    background-color:var(--white-color);
     opacity: 0.7;
     padding: 1rem;
     width: 90%;
@@ -467,7 +469,7 @@ body{
 /** Snackbar **/
 .snackbar{
     background-color:#374151;
-    color:white;
+    color:var(--white-color);
     padding:0.8rem;
     position: fixed;
     bottom:0.5rem;
