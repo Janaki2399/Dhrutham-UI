@@ -334,6 +334,20 @@ body{
     flex-direction: column;
 }
 
+.border-bottom{
+    border:0;
+    border-bottom:1px solid;
+  }
+  
+.black-border{
+    border-color:black;
+  }
+  
+.gray-border{
+    border-color:#a6a6a6;
+  }
+  
+
 /** List **/
 .spaced-list-item-group{
     list-style-type:none;
@@ -537,4 +551,45 @@ body{
 
 .space-between{
     justify-content: space-between;
+}
+
+.anchor-link{
+    text-decoration: none;
+    color:black
+  }
+
+.center-align-ver-hor{
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**positoining**/
+
+.absolute-position{
+    position:absolute;
+}
+
+.relative-position{
+    position:relative;
+}
+
+.position-topRight{
+    top:0;
+    right:0;
+}
+
+.position-topLeft{
+    top:0;
+    left:0;
+}
+
+/**Height And Width **/
+.full-width{
+    width:100%;
+}
+
+.full-height{
+    height:100%;
 }
