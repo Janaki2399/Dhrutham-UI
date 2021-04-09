@@ -8,11 +8,13 @@
     --padding-1:0.5rem;
     --padding-2:0.8rem;
     --padding-3:0.4rem;
+    --padding-4:1rem;
     --font-size-text:1.1rem;
     --font-size-small:0.8rem;
     --font-size-title:01.4rem;
     --font-family:Roboto;
     --margin-right:0.6rem;
+    --margin-2:1rem;
     --white-color:#FFFFFF;
 }
 
@@ -162,6 +164,13 @@ body{
     opacity: 0.6;
     cursor: not-allowed;
   }
+
+.btn-box{
+    border:0;
+    outline:0;
+    background-color:transparent;
+}
+
 /** Icon Buttons **/
 
 .icon-btn{
@@ -188,6 +197,9 @@ body{
     font-size: 18px; 
 }
 
+.icon-size-30 {
+    font-size: 30px;
+}
 
 .icon-color-red{
     color:red;
@@ -491,8 +503,6 @@ body{
     border-radius:2px;
 }
 
-
-
 /**Navbar**/
 
 .nav{
@@ -518,6 +528,10 @@ body{
     color:inherit
 }
 
+.navbar-height{
+    height:3rem;
+  }
+
 /** margins **/
 
 .margin-right{
@@ -525,12 +539,47 @@ body{
 }
 
 .margin-top{
-    margin-top:1rem;
+    margin-top:var(--margin-2);
+}
+
+.margin-bottom{
+    margin-bottom:var(--margin-2);
 }
 
 .margin-auto{
     margin:auto;
 }
+
+.margin-all{
+    margin:var(--margin-2);
+}
+
+/***Modal ***/
+
+.modal-background{
+    width:100%;
+    height:100vh;
+    background-color:rgba(0,0,0,0.6);
+    z-index:1;
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+  }
+
+.modal-content {
+    background-color: #fefefe;
+    position: relative;
+    top:50%;
+    left:50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 1px solid #888;
+  }
 
 /*utility classes*/
 
@@ -564,7 +613,6 @@ body{
     justify-content: center;
 }
 
-
 /**positoining**/
 
 .absolute-position{
@@ -586,6 +634,7 @@ body{
 }
 
 /**Height And Width **/
+
 .full-width{
     width:100%;
 }
@@ -593,3 +642,44 @@ body{
 .full-height{
     height:100%;
 }
+
+/***Padding classes ***/
+
+.padding-left{
+    padding-left:var(--padding-4);
+  }
+  
+  .padding-top{
+    padding-top:var(--padding-2);
+  }
+  
+  .padding-right{
+    padding-right:var(--padding-4);
+  }
+  
+  .padding-bottom{
+    padding-bottom:var(--padding-4);
+  }
+
+/***Border ***/
+
+.border-bottom{
+    border:0;
+    border-bottom:1px solid;
+  }
+  
+.black-border{
+    border-color:black;
+  }
+  
+.gray-border{
+    border-color:#a6a6a6;
+  }
+  
+/*** Center align horizontally and vertically **/
+
+.center-align-ver-hor{
+    align-items: center;
+    justify-content: center;
+}
+
