@@ -16,6 +16,8 @@
     --margin-right:0.6rem;
     --margin-2:1rem;
     --white-color:#FFFFFF;
+    --black-color:#000000;
+    --gray-color:#D1D5DB;
 }
 
 body{
@@ -235,7 +237,7 @@ body{
 /**CARDS**/
 
 .card{
-    border:1px solid #D1D5DB;
+    border:1px solid var(--gray-color);
     border-radius:0.2rem;
     position:relative;
     word-wrap:break-word;
@@ -329,7 +331,7 @@ body{
     height: 25px;
     width:90%;
     padding:2px 5px;
-    border:1px solid #a6a6a6;
+    border:1px solid var(--gray-color);
     border-radius:3px;
     font-size:14px;
     margin-top:3px;
@@ -356,7 +358,7 @@ body{
   }
   
 .gray-border{
-    border-color:#a6a6a6;
+    border-color:var(--gray-color);
   }
   
 
@@ -378,12 +380,12 @@ body{
 /**Stacked List -notification**/
 
 .stacked-list-group{
-    border:1px solid #a6a6a6;
+    border:1px solid var(--gray-color);
 }
 
 .stacked-item{
     display: flex;
-    border-bottom:1px solid #a6a6a6;
+    border-bottom:1px solid var(--gray-color);
     padding:var(--padding-1); 
     align-items: center;
 }
@@ -430,7 +432,7 @@ body{
     }
     .grid-col-3 {
       display: grid;
-      grid-template-columns: 35% 35% 35%;
+      grid-template-columns: 32% 32% 32%;
     }
   }
   @media (min-width: 1059px) {
@@ -440,7 +442,7 @@ body{
     }
     .grid-col-3 {
       display: grid;
-      grid-template-columns: 25% 25% 25% 25%;
+      grid-template-columns: 24% 24% 24% 24%;
     }
   }
   
@@ -511,7 +513,7 @@ body{
     justify-content: space-between;
     padding-left:4rem;
     padding-right:2rem;
-    border-bottom: 1px solid #D1D5DB;
+    border-bottom: 1px solid var(--gray-color);
 }
 
 .nav-list{
@@ -673,7 +675,7 @@ body{
   }
   
 .gray-border{
-    border-color:#a6a6a6;
+    border-color:var(--gray-color);
   }
   
 /*** Center align horizontally and vertically **/
@@ -683,3 +685,16 @@ body{
     justify-content: center;
 }
 
+/***Colors ***/
+
+.white-color{
+    color:var(--white-color);
+}
+
+.black-color{
+    color:var(--black-color);
+}
+
+.gray-color{
+    color:var(--gray-color);
+}
