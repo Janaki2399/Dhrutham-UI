@@ -651,17 +651,21 @@ body{
     padding-left:var(--padding-4);
   }
   
-  .padding-top{
+.padding-top{
     padding-top:var(--padding-2);
-  }
-  
-  .padding-right{
+}
+
+.padding-right{
     padding-right:var(--padding-4);
-  }
-  
-  .padding-bottom{
+}
+
+.padding-bottom{
     padding-bottom:var(--padding-4);
-  }
+}
+
+.padding-all{
+    padding:var(--padding-4)
+}
 
 /***Border ***/
 
