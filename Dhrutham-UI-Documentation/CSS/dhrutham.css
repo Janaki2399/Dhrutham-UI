@@ -329,7 +329,7 @@ body{
 
 .text-input{
     height: 25px;
-    width:90%;
+    width:100%;
     padding:2px 5px;
     border:1px solid var(--gray-color);
     border-radius:3px;
