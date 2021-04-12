@@ -696,8 +696,9 @@ body{
 /*** Center align horizontally and vertically **/
 
 .center-align-ver-hor{
-    align-items: center;
-    justify-content: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
 /***Colors ***/
