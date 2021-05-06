@@ -511,19 +511,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left:4rem;
-    padding-right:2rem;
+    /* padding-left:4rem;
+    padding-right:2rem; */
     border-bottom: 1px solid var(--gray-color);
 }
 
 .nav-list{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    /* justify-content: flex-end;
+    align-items: center; */
 }
 
 .nav-item{
-    margin-right: var(--margin-right);
+    /* margin-right: var(--margin-right); */
     display: flex;
     align-items: center;
     text-decoration: none;
