@@ -731,9 +731,9 @@ body {
 /*** Loader ***/
 
 .loader {
-  border: 16px solid #f3f3f3;
+  border: 6px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid var(--primary);
+  border-top: 6px solid var(--primary);
   width: 2rem;
   height: 2rem;
   -webkit-animation: spin 2s linear infinite; /* Safari */
