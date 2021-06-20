@@ -734,8 +734,8 @@ body {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid var(--primary);
-  width: 120px;
-  height: 120px;
+  width: 2rem;
+  height: 2rem;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
 }
