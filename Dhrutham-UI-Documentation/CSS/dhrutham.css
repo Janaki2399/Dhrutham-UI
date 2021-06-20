@@ -732,7 +732,7 @@ body {
 
 .loader {
   font-size: 10px;
-  /* margin: 50px auto; */
+  margin: 50px auto;
   text-indent: -9999em;
   width: 3em;
   height: 5em;
