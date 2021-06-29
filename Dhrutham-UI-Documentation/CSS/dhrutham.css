@@ -672,6 +672,9 @@ body {
   padding: var(--padding-4);
 }
 
+.padding-small {
+  padding: var(--padding-1);
+}
 /***Border ***/
 
 .border-bottom {
