@@ -517,6 +517,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   /* padding-left:4rem;
     padding-right:2rem; */
   border-bottom: 1px solid var(--gray-color);
