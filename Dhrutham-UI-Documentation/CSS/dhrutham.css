@@ -749,8 +749,8 @@ body {
   border-top: 6px solid var(--primary);
   width: 2rem;
   height: 2rem;
-  -webkit-animation: spin 4s linear infinite; /* Safari */
-  animation: spin 4s linear infinite;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
 }
 
 /* Safari */
