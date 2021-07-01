@@ -142,7 +142,7 @@ body {
   font-weight: 550;
   font-size: 0.9rem;
   cursor: pointer;
-  outline: none;
+  outline: 2px solid #991b1b;
   text-align: center;
 }
 
@@ -755,6 +755,7 @@ body {
 .bg-light-gray-color {
   background-color: var(--light-gray-color);
 }
+
 /*** Loader ***/
 
 .loader {
