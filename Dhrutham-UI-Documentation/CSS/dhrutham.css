@@ -522,6 +522,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+
   background-color: var(--white-color);
   /* padding-left:4rem;
     padding-right:2rem; */
@@ -550,6 +551,10 @@ body {
 
 .margin-right {
   margin-right: var(--margin-right);
+}
+
+.margin-left {
+  margin-right: var(--margin-2);
 }
 
 .margin-top {
