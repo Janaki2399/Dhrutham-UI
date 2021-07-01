@@ -418,7 +418,7 @@ body {
   }
   .grid-col-3 {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 47% 47%;
   }
 }
 @media (min-width: 576px) {
@@ -428,7 +428,7 @@ body {
   }
   .grid-col-3 {
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 47% 47%;
   }
 }
 @media (min-width: 840px) {
