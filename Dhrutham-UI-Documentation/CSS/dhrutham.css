@@ -18,6 +18,7 @@
   --white-color: #ffffff;
   --black-color: #000000;
   --gray-color: #d1d5db;
+  --light-gray-color: #e5e7eb;
   --red-color: #dc2626;
 }
 
@@ -745,6 +746,14 @@ body {
 
 .red-color {
   color: var(--red-color);
+}
+
+.bg-dark-gray-color {
+  background-color: var(--gray-color);
+}
+
+.bg-light-gray-color {
+  background-color: var(--light-gray-color);
 }
 /*** Loader ***/
 
