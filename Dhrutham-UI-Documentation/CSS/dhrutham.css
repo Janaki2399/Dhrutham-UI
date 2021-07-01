@@ -554,7 +554,7 @@ body {
 }
 
 .margin-left {
-  margin-right: var(--margin-2);
+  margin-left: var(--margin-2);
 }
 
 .margin-top {
