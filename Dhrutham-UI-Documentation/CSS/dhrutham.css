@@ -142,7 +142,7 @@ body {
   font-weight: 550;
   font-size: 0.9rem;
   cursor: pointer;
-  outline: 2px solid #991b1b;
+  /* outline: 2px solid #991b1b; */
   text-align: center;
 }
 
