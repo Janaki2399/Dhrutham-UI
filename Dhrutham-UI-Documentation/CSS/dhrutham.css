@@ -490,6 +490,14 @@ body {
 .font-size-6 {
   font-size: 0.9rem;
 }
+
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-500 {
+  font-weight: 500;
+}
+
 .text-gray {
   color: #4b5563;
 }
