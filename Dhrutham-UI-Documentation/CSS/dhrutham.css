@@ -14,12 +14,15 @@
   --font-size-title: 01.4rem;
   --font-family: Roboto;
   --margin-right: 0.6rem;
-  --margin-2: 1rem;
+  --margin-1: 1rem;
+  --margin-3: 3rem;
+  --margin-5: 5rem;
   --white-color: #ffffff;
   --black-color: #000000;
   --gray-color: #d1d5db;
   --light-gray-color: #e5e7eb;
   --red-color: #dc2626;
+  --green-color: #10b981;
 }
 
 body {
@@ -573,15 +576,23 @@ body {
 }
 
 .margin-left {
-  margin-left: var(--margin-2);
+  margin-left: var(--margin-1);
 }
 
 .margin-top {
-  margin-top: var(--margin-2);
+  margin-top: var(--margin-1);
+}
+
+.margin-top-3 {
+  margin-top: var(--margin-3);
+}
+
+.margin-top-5 {
+  margin-top: var(--margin-5);
 }
 
 .margin-bottom {
-  margin-bottom: var(--margin-2);
+  margin-bottom: var(--margin-1);
 }
 
 .margin-auto {
@@ -589,7 +600,7 @@ body {
 }
 
 .margin-all {
-  margin: var(--margin-2);
+  margin: var(--margin-1);
 }
 
 /***Modal ***/
@@ -764,6 +775,10 @@ body {
 
 .red-color {
   color: var(--red-color);
+}
+
+.green-color {
+  color: var(--green-color);
 }
 
 .bg-dark-gray-color {
