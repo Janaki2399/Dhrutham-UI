@@ -342,12 +342,22 @@ body {
   border-radius: 3px;
   font-size: 14px;
   margin-top: 3px;
-  /* margin-bottom: 1rem; */
 }
 
 .text-input:focus {
   outline-width: thin;
   outline-color: #60a5fa;
+}
+
+.error-text {
+  color: #dc2626;
+}
+.error-border-color {
+  border: 1px solid #dc2626;
+}
+
+.genric-border-color {
+  border: 1px solid var(--gray-color);
 }
 
 .flex-column {
