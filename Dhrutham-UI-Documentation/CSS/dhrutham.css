@@ -676,6 +676,9 @@ body {
   height: 100%;
 }
 
+.half-width {
+  width: 50%;
+}
 /***Padding classes ***/
 
 .padding-left {
