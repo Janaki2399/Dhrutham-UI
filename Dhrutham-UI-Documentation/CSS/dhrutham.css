@@ -167,7 +167,6 @@ body {
 
 .btn-text {
   border: 0;
-  outline: 0;
   background-color: var(--white-color);
   padding: 0;
 }
