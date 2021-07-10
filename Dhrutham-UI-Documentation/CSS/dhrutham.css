@@ -507,9 +507,16 @@ body {
   color: var(--white-color);
   padding: 0.8rem;
   position: fixed;
+  border-radius: 2px;
+}
+
+.snackbar-bottom-left {
   bottom: 0.5rem;
   left: 0.5rem;
-  border-radius: 2px;
+}
+.snackbar-top-right {
+  top: 0.5rem;
+  right: 0.5rem;
 }
 
 /**Navbar**/
