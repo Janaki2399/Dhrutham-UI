@@ -443,12 +443,12 @@ body {
     grid-template-columns: 24% 24% 24% 24%;
   }
 }
-/* @media (min-width: 1600px) {
+@media (min-width: 1600px) {
   .grid-col-3 {
     display: grid;
-    grid-template-columns: 24% 24% 24% 24% 24%;
+    grid-template-columns: 18% 18% 18% 18% 18%;
   }
-} */
+}
 /**Text Utilities**/
 
 .text-start {
