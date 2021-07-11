@@ -10,12 +10,15 @@
 </head>
 <body>
     <header>
-        <div class=" flex-horizontal center-align padding-2" style="justify-content: space-between;padding-left:4rem; padding:1rem">
-            <div class="text-color-primary">Dhrutham UI</div>
+        <div class=" flex-horizontal center-align padding-2 padding-all">
+            <div class="mobile-nav-icon margin-right">
+                <span class="material-icons-outlined cursor-pointer">menu</span>
+            </div>
+            <div class="text-color-primary font-bold-1 font-size-4">Dhrutham UI</div>
         </div>
         
     </header>
-    <div id="nav">
+    <div class="sidebar sidebar-visibility">
         <ul class="spaced-list-item-group list-group-margin">
             <a class="nav-link" href="#avatar"><li class="spaced-list-item">Getting started</li></a>
             <a class="nav-link" href="#avatar"><li class="spaced-list-item">Avatar</li></a>
@@ -29,7 +32,6 @@
             <a class="nav-link" href="#text-utilities"><li class="spaced-list-item">Text Utilities</li></a>
             <a class="nav-link" href="#navbar"><li class="spaced-list-item">Navbar</li></a>
             <a class="nav-link" href="#grid"><li class="spaced-list-item">Grid layout</li></a>
-            
         </ul>
     </div>
 
@@ -39,8 +41,9 @@
     <section id="getting-started" class="scroll-margin-top">
 
         <h1 class="heading-large heading">Getting started</h1>
-        <div class="text-gray">To get started copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all other stylesheets to load our CSS.</div>
-
+        <div class="center-div">
+        <div class="text-gray full-width">To get started copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all other stylesheets to load our CSS.</div>
+        </div>
         <div class="code-div">
             <embed src="https://carbon.now.sh/embed/CN4Eq7zP7J2xQh7g5qQq" width="100%"></embed>
         </div>
@@ -175,7 +178,7 @@
             <div class="card card-shadow " style="max-width:25rem;">
                 <div class="card-padding">
                     <div class="card-title">Card Title</div>
-                    <div class="card-text font-size-medium">
+                    <div class="card-text font-size-6">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Sunt officia eos quidem, quaerat doloremque veritatis
                         minus nihil alias eum? Assumenda eum, esse facilis
@@ -347,7 +350,7 @@
     <section id="snackbar" class="scroll-margin-top">
         <h1 class="heading-large heading">Snackbar</h1>
 
-        <div class="snackbar-onView" style="width:17rem" >Saved to wishlist</div>
+        <div class="snackbar" style="width:17rem" >Saved to wishlist</div>
 
         <div class="code-div">
             <embed src="https://carbon.now.sh/embed/y9a1cUmDMV2LKJnYpCuc" width="100%" ></embed>
@@ -393,7 +396,7 @@
     <section id="navbar" class="scroll-margin-top">
         <h1 class="heading heading-large">Navbar</h1>
         <div class="center-div">
-            <div class="nav">
+            <div class="flex-horizontal space-between align-items-center">
                 <div class="font-size-3">Logo</div>
                 <div class="nav-list">
                     <a href="/" class="nav-item">
@@ -471,5 +474,6 @@
     </section>
       
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

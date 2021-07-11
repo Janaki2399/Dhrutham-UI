@@ -14,31 +14,82 @@ header {
   z-index: 1;
 }
 
-#nav {
-  grid-area: nav;
-  position: fixed;
-  left: 0;
-  width: 300px;
-  align-content: center;
-  border-right: 3px solid #e5e7eb;
-  margin-top: 2rem;
-}
-
 main {
   grid-area: main;
   opacity: 1;
   overflow: auto;
-  /* scroll-margin-top:12vh; */
+  width: 100%;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 body {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 100%;
   grid-template-areas:
-    "header header"
-    "nav main ";
-  grid-column-gap: 6rem;
+    "header"
+    "main";
   overflow-x: hidden;
+}
+.sidebar {
+  grid-area: nav;
+  position: fixed;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  margin-top: 3.6rem;
+  z-index: 20;
+  align-content: center;
+  transition: width 0.5s ease 0s;
+  background-color: var(--white-color);
+  border-right: 3px solid #e5e7eb;
+}
+.mobile-nav-icon {
+  display: flex;
+}
+
+.sidebar-visibility {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .mobile-nav-icon {
+    display: none;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-areas:
+      "header header"
+      "nav main ";
+    grid-column-gap: 6rem;
+    overflow-x: hidden;
+  }
+
+  .sidebar {
+    grid-area: nav;
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    margin-top: 3.6rem;
+    z-index: 20;
+    align-content: center;
+    background-color: var(--white-color);
+    border-right: 3px solid #e5e7eb;
+  }
+
+  main {
+    grid-area: main;
+    opacity: 1;
+    overflow: auto;
+    width: 100%;
+  }
+
+  .sidebar-visibility {
+    display: block;
+  }
 }
 
 .nav-link {
@@ -59,7 +110,6 @@ body {
 }
 
 .heading {
-  font-family: "Roboto";
   line-height: 1.2;
   color: #374151;
   letter-spacing: 0.5px;
@@ -67,22 +117,13 @@ body {
 
 .spaced-list-item {
   font-size: 1.2rem;
-  font-family: "Roboto";
   color: #374151;
   padding-left: 30%;
-}
-
-.para-style {
-  font-family: "Roboto";
-  font-size: 1rem;
-  margin: 1rem 0;
-  color: #1f2937;
 }
 
 .code-div {
   margin-top: 1rem;
   width: 86%;
-  /* width:45rem; */
   margin-bottom: 2rem;
   left: 0;
 }
@@ -100,21 +141,6 @@ body {
   align-items: flex-end;
 }
 
-.snackbar-onView {
-  background-color: #374151;
-  color: white;
-  padding: 0.8rem;
-  border-radius: 2px;
-}
-
 .scroll-margin-top {
   scroll-margin-top: 12vh;
-}
-
-.font-size-medium {
-  font-size: 0.95rem;
-}
-
-.logo-padding {
-  padding-left: 5rem;
 }
