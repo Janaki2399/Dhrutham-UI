@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&family=Work+Sans:wght@100;500&display=swap");
 :root {
   --primary: #aa3a3a;
   --secondary: #c4c6a6;
@@ -27,6 +27,7 @@
 
 body {
   margin: 0;
+  font-family: Roboto;
 }
 
 .bg-primary {
